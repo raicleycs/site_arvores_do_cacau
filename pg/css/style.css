@@ -1,0 +1,169 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255)
+
+}
+.navbar{
+    background-color: rgb(12, 55, 0);
+    padding: 10px 10 px;
+    border-radius: 60px;
+    border-top-left-radius: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.logo-navbar{
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 30px;
+}
+.navbar a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+.navbar a:hover{
+    color: rgb(0, 0, 0) ;
+    background-color:rgb(255, 255, 255);
+    border-radius: 60px;
+    margin-bottom: 40px;
+    border-top-left-radius: 0;
+    
+}
+.bt-navbar1{
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bt-navbar{
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.banner{
+    background-image: url('p/slide-1-1920x753.png');
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right:20px;
+    margin-left: 20px;
+}
+.banner1{
+    background-image: url('p/slide-2-1920x753.png');
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right:20px;
+    margin-left: 20px;
+}
+p{
+    color: white;
+}
+
+.div1{
+    text-align: justify;
+    margin-left: 800px;
+    margin-right: 200px;
+}
+.div2{
+    display: flex;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 300px;
+    
+}
+.barra{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+PRODUTOS
+
+.produto1{
+    display: flex;
+    padding: 100px;
+    margin-right: 60px;
+}
+.produto2{
+    display: flex;
+    padding: 100px;
+    margin-left: 60px;
+}
+.texto1{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 400px;
+}
+.texto2{
+    display: flex;
+    margin-right: 80px;
+}
+h1{
+    text-align: center;
+    color: rgb(43, 41, 1)
+
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.pg1{
+    flex-basis: calc(33%-15%);
+    padding: 7px 5px;
+    text-align: center;
+    background-color: rgb(1, 85, 2);
+    border-radius: 200px;
+    border-top-right-radius: 0px;
+}
+.pg2{
+    flex-basis: calc(33%-15%);
+    padding: 7px 5px;
+    text-align: center;
+    background-color: rgb(50, 38, 1);
+    border-radius: 200px;
+    border-top-left-radius: 0px;
+}
+footer{
+    background-color: rgb(50, 38, 1); 
+    padding: 400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  input[type="text"], input[type="email"], input[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Contatos</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="img/logo vetorizadaadklnhicjiwjcm.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo-navbar" src="img/Logo 4 final sem fundo.png" alt="logo" width="200" height="100">
+        <a href="#">Início</a>
+        <a href="pg/produtos.html">Produtos</a>
+        <a href="pg/contato.html">Contato</a>
+        <input class="bt-navbar" type="text" placeholder="Pesquise aqui...">
+        <button class="bt-navbar1" type="submit">Pesquisar</button>
+    </div>
+  <h1>Cadastre-se</h1>
+  <form action="salvar_contato.php" method="POST">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="submit" value="Salvar">
+  </form>
+</body>
+</html>
