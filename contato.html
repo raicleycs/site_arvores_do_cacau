@@ -1,19 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Contato</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="icon" href="img/logo vetorizadaadklnhicjiwjcm.png" type="image/x-icon">
-    </head>
-    <body>
-        <div class="navbar">
-            <img class="logo-navbar" src="img/Logo 4 final sem fundo.png" alt="logo" width="200" height="100">
-            <a href="#">Início</a>
-            <a href="pg/produtos.html">Produtos</a>
-            <a href="pg/contato.html">Contato</a>
-            <input class="bt-navbar" type="text" placeholder="Pesquise aqui...">
-            <button class="bt-navbar1" type="submit">Pesquisar</button>
-        </div>
-<br>
-<br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Entre em Contato</h2>
+
+    <form action="#" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+</body>
+</html>
